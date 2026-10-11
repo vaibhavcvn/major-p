@@ -1,0 +1,32 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+
+# Browser and test artifacts
+playwright-report/
+test-results/
+coverage/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
